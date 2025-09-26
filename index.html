@@ -12,6 +12,7 @@
             colors: {
               "primary-blue": "#002D5E",
               "accent-orange": "#FE7E00",
+              "light-accent-orange": "#FF9F40",
               "light-blue": "#e6f0ff",
               "bg-light": "#f8faff",
             },
@@ -22,10 +23,13 @@
         },
       };
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       * {
-        font-family: 'Inter', system-ui, sans-serif;
+        font-family: "Inter", system-ui, sans-serif;
       }
       .gradient-bg {
         background: linear-gradient(135deg, #f8faff 0%, #ffffff 100%);
@@ -37,40 +41,313 @@
   </head>
   <body class="font-sans text-gray-800 overflow-x-hidden">
     <!-- Header -->
-    <header class="bg-white text-primary-blue fixed w-full top-0 z-50 shadow-sm border-b border-gray-100">
-      <nav class="max-w-6xl mx-auto flex justify-between items-center px-8 py-4">
+    <header
+      class="bg-white text-primary-blue fixed w-full top-0 z-50 shadow-sm border-b border-gray-100"
+    >
+      <nav class="mx-auto flex justify-between items-center px-28 py-4">
         <div class="text-2xl font-bold text-accent-orange">
           <img src="logo.png" alt="" class="inline w-24 mr-2" />
         </div>
         <ul class="hidden md:flex space-x-8">
-          <li><a href="#home" class="font-medium hover:text-accent-orange transition-colors duration-300">Home</a></li>
-          <li><a href="#features" class="font-medium hover:text-accent-orange transition-colors duration-300">Features</a></li>
-          <li><a href="#pricing" class="font-medium hover:text-accent-orange transition-colors duration-300">Pricing</a></li>
-          <li><a href="#about" class="font-medium hover:text-accent-orange transition-colors duration-300">About</a></li>
-          <li><a href="#contact" class="font-medium hover:text-accent-orange transition-colors duration-300">Contact</a></li>
+          <li>
+            <a
+              href="#home"
+              class="font-medium hover:text-accent-orange transition-colors duration-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#features"
+              class="font-medium hover:text-accent-orange transition-colors duration-300"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="font-medium hover:text-accent-orange transition-colors duration-300"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="font-medium hover:text-accent-orange transition-colors duration-300"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="font-medium hover:text-accent-orange transition-colors duration-300"
+              >Contact</a
+            >
+          </li>
         </ul>
         <div class="md:hidden text-primary-blue p-2 rounded cursor-pointer">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
           </svg>
         </div>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="gradient-bg pt-32 pb-20 px-8 text-center" id="home">
-      <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight text-primary-blue">
-          Fast, Secure, and Reliable 
-          <span class="text-accent-orange">Web Hosting</span>
-        </h1>
-        <p class="text-xl mb-10 text-gray-600 max-w-3xl mx-auto">
-          Experience lightning-fast loading speeds, 99.9% uptime guarantee, and
-          24/7 expert support. Your website deserves the best hosting solution.
-        </p>
-        <a href="#pricing" class="gradient-orange text-white px-8 py-4 rounded-lg text-lg font-medium inline-block hover:shadow-lg transition-all duration-300">
-          Get Started Today
-        </a>
+    <section class="container mx-auto px-4 py-16">
+      <div class="flex flex-col lg:flex-row items-center justify-between mt-16">
+        <!-- Left Content -->
+        <div class="lg:w-1/2 mb-10 lg:mb-0">
+          <!-- <div
+            class="inline-block bg-blue-100 text-primary-blue px-4 py-2 rounded-full text-sm font-medium mb-6"
+          >
+            Web Hosting in India
+          </div> -->
+
+          <h1 class="text-5xl lg:text-5xl font-bold text-gray-900 mb-6">
+            Trusted Indian Web Hosting Provider
+          </h1>
+
+          <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+            BlinkHost makes web hosting simple, easy, and hassle-free.
+            Partner<br />
+            with us to launch your blog, portfolio, business website, or
+            online<br />
+            store and soar your online journey.
+          </p>
+
+          <div class="flex space-x-4 mb-12">
+            <button
+              class="bg-accent-orange text-white px-8 py-3 rounded-full font-semibold hover:bg-light-accent-orange transition"
+            >
+              View Plans
+            </button>
+            <button
+              class="border-2 border-primary-blue text-primary-blue px-8 py-3 rounded-full font-semibold hover:bg-primary-blue hover:text-white transition"
+            >
+              Chat Now
+            </button>
+          </div>
+
+          <!-- Review Badges -->
+          <div class="flex flex-wrap gap-8">
+            <div class="flex items-center space-x-3">
+              <div>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+                  alt="Google Logo"
+                  class="h-6"
+                />
+                <div class="flex items-center">
+                  <div class="flex text-yellow-400">★★★★☆</div>
+                  <span class="ml-2 text-sm text-gray-600">4.8/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <div>
+                <div class="font-semibold text-gray-800">Trustpilot</div>
+                <div class="flex items-center">
+                  <div class="flex text-yellow-400">★★★★★</div>
+                  <span class="ml-2 text-sm text-gray-600">4.9/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <div>
+                <div class="font-semibold text-gray-800">Hostadvice</div>
+                <div class="flex items-center">
+                  <div class="flex text-yellow-400">★★★★★</div>
+                  <span class="ml-2 text-sm text-gray-600">5/5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Content - Hero Image with Overlays -->
+        <div class="lg:w-1/2 relative">
+          <div class="relative">
+            <!-- Background decorative elements -->
+            <div
+              class="absolute -top-10 -right-10 w-96 h-96 bg-blue-100 rounded-full opacity-20"
+            ></div>
+
+            <!-- Main image container -->
+            <div class="relative z-10">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop"
+                alt="Happy customer"
+                class="rounded-2xl shadow-xl w-full max-w-md mx-auto"
+              />
+
+              <div
+                class="absolute top-32 -right-10 bg-white rounded-xl shadow-lg px-6 py-3 flex items-center space-x-2"
+              >
+                <svg
+                  class="w-6 h-6 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  ></path>
+                </svg>
+                <span class="font-semibold text-green-600">99.95% Uptime</span>
+              </div>
+
+              <div
+                class="absolute bottom-10 left-10 bg-white rounded-xl shadow-lg px-6 py-3 flex items-center space-x-2"
+              >
+                <svg
+                  class="w-6 h-6 text-blue-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  ></path>
+                </svg>
+                <span class="font-semibold text-gray-700">24x7</span>
+              </div>
+
+              <div
+                class="absolute bottom-10 -right-10 bg-primary-blue text-white rounded-xl shadow-lg px-6 py-3"
+              >
+                <span class="font-semibold">Buy & Renew Same Cost</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="container mx-auto px-4 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-6 h-6 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-gray-900">2005</div>
+              <div class="text-gray-600">Established ...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-6 h-6 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-gray-900">30+</div>
+              <div class="text-gray-600">Data Centers ...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-6 h-6 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-gray-900">3000+</div>
+              <div class="text-gray-600">Active Servers ...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
+            >
+              <svg
+                class="w-6 h-6 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <div class="text-3xl font-bold text-gray-900">65000+</div>
+              <div class="text-gray-600">Websites Hosted ...</div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -81,48 +358,117 @@
           Why Choose BlinkHost.in?
         </h2>
         <p class="text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto">
-          Powerful features designed to give your website the performance it deserves
+          Powerful features designed to give your website the performance it
+          deserves
         </p>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center group">
-            <div class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300">
-              <svg class="w-8 h-8 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            <div
+              class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-accent-orange"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                ></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-primary-blue mb-4">Lightning Fast Speed</h3>
-            <p class="text-gray-600">SSD storage and advanced caching ensure your website loads in under 2 seconds.</p>
+            <h3 class="text-xl font-semibold text-primary-blue mb-4">
+              Lightning Fast Speed
+            </h3>
+            <p class="text-gray-600">
+              SSD storage and advanced caching ensure your website loads in
+              under 2 seconds.
+            </p>
           </div>
 
           <div class="text-center group">
-            <div class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300">
-              <svg class="w-8 h-8 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            <div
+              class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-accent-orange"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                ></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-primary-blue mb-4">Enterprise Security</h3>
-            <p class="text-gray-600">Free SSL certificates, DDoS protection, malware scanning, and daily backups.</p>
+            <h3 class="text-xl font-semibold text-primary-blue mb-4">
+              Enterprise Security
+            </h3>
+            <p class="text-gray-600">
+              Free SSL certificates, DDoS protection, malware scanning, and
+              daily backups.
+            </p>
           </div>
 
           <div class="text-center group">
-            <div class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300">
-              <svg class="w-8 h-8 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path>
+            <div
+              class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-accent-orange"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"
+                ></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-primary-blue mb-4">24/7 Expert Support</h3>
-            <p class="text-gray-600">Our technical experts are available round the clock via live chat, email, and phone.</p>
+            <h3 class="text-xl font-semibold text-primary-blue mb-4">
+              24/7 Expert Support
+            </h3>
+            <p class="text-gray-600">
+              Our technical experts are available round the clock via live chat,
+              email, and phone.
+            </p>
           </div>
 
           <div class="text-center group">
-            <div class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300">
-              <svg class="w-8 h-8 text-accent-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            <div
+              class="w-16 h-16 bg-accent-orange/10 rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-accent-orange/20 transition-colors duration-300"
+            >
+              <svg
+                class="w-8 h-8 text-accent-orange"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-primary-blue mb-4">Affordable Plans</h3>
-            <p class="text-gray-600">Premium hosting features at competitive prices with a 30-day money-back guarantee.</p>
+            <h3 class="text-xl font-semibold text-primary-blue mb-4">
+              Affordable Plans
+            </h3>
+            <p class="text-gray-600">
+              Premium hosting features at competitive prices with a 30-day
+              money-back guarantee.
+            </p>
           </div>
         </div>
       </div>
@@ -140,64 +486,157 @@
 
         <div class="grid md:grid-cols-3 gap-8">
           <!-- Starter Plan -->
-          <div class="bg-white p-8 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300">
-            <h3 class="text-2xl font-semibold text-primary-blue mb-4">Starter</h3>
-            <div class="text-4xl font-bold text-accent-orange mb-6">
-              ₹99<span class="text-lg text-gray-600 font-normal">/month</span>
+          <div
+            class="bg-white p-8 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
+          >
+            <div>
+              <h3 class="text-2xl font-semibold text-primary-blue mb-4">
+                Starter
+              </h3>
+              <div class="text-4xl font-bold text-accent-orange mb-6">
+                ₹99<span class="text-lg text-gray-600 font-normal">/month</span>
+              </div>
+              <ul class="space-y-3 mb-8 text-gray-600">
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>1
+                  Website
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>10GB
+                  SSD Storage
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>100GB
+                  Bandwidth
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>Free
+                  SSL Certificate
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>Email
+                  Support
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>99.9%
+                  Uptime
+                </li>
+              </ul>
             </div>
-            <ul class="space-y-3 mb-8 text-gray-600">
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>1 Website</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>10GB SSD Storage</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>100GB Bandwidth</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Free SSL Certificate</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Email Support</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>99.9% Uptime</li>
-            </ul>
-            <button class="w-full bg-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300">
+            <button
+              class="w-full bg-primary-blue text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300"
+            >
               Choose Starter
             </button>
           </div>
 
           <!-- Professional Plan -->
-          <div class="bg-white p-8 rounded-xl border-2 border-accent-orange relative hover:shadow-xl transition-all duration-300">
-            <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-accent-orange text-white px-4 py-1 rounded-full text-sm font-medium">
-              Most Popular
+          <div
+            class="bg-white p-8 rounded-xl border-2 border-accent-orange relative hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-accent-orange text-white px-4 py-1 rounded-full text-sm font-medium"
+              >
+                Most Popular
+              </div>
+              <h3 class="text-2xl font-semibold text-primary-blue mb-4 mt-2">
+                Professional
+              </h3>
+              <div class="text-4xl font-bold text-accent-orange mb-6">
+                ₹199<span class="text-lg text-gray-600 font-normal"
+                  >/month</span
+                >
+              </div>
+              <ul class="space-y-3 mb-8 text-gray-600">
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>5
+                  Websites
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>50GB
+                  SSD Storage
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span
+                  >Unlimited Bandwidth
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>Free
+                  SSL Certificate
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>24/7
+                  Live Chat Support
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>Free
+                  Daily Backups
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>99.9%
+                  Uptime
+                </li>
+              </ul>
             </div>
-            <h3 class="text-2xl font-semibold text-primary-blue mb-4 mt-2">Professional</h3>
-            <div class="text-4xl font-bold text-accent-orange mb-6">
-              ₹199<span class="text-lg text-gray-600 font-normal">/month</span>
-            </div>
-            <ul class="space-y-3 mb-8 text-gray-600">
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>5 Websites</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>50GB SSD Storage</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Unlimited Bandwidth</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Free SSL Certificate</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>24/7 Live Chat Support</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Free Daily Backups</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>99.9% Uptime</li>
-            </ul>
-            <button class="w-full gradient-orange text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300">
+            <button
+              class="w-full gradient-orange text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-300"
+            >
               Choose Professional
             </button>
           </div>
 
           <!-- Business Plan -->
-          <div class="bg-white p-8 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300">
-            <h3 class="text-2xl font-semibold text-primary-blue mb-4">Business</h3>
-            <div class="text-4xl font-bold text-accent-orange mb-6">
-              ₹399<span class="text-lg text-gray-600 font-normal">/month</span>
+          <div
+            class="bg-white p-8 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
+          >
+            <div>
+              <h3 class="text-2xl font-semibold text-primary-blue mb-4">
+                Business
+              </h3>
+              <div class="text-4xl font-bold text-accent-orange mb-6">
+                ₹399<span class="text-lg text-gray-600 font-normal"
+                  >/month</span
+                >
+              </div>
+              <ul class="space-y-3 mb-8 text-gray-600">
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span
+                  >Unlimited Websites
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>200GB
+                  SSD Storage
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span
+                  >Unlimited Bandwidth
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>Free
+                  SSL Certificate
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span
+                  >Priority 24/7 Support
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>Free
+                  Daily Backups
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>CDN
+                  Integration
+                </li>
+                <li class="flex items-center">
+                  <span class="text-accent-orange font-bold mr-3">✓</span>99.9%
+                  Uptime
+                </li>
+              </ul>
             </div>
-            <ul class="space-y-3 mb-8 text-gray-600">
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Unlimited Websites</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>200GB SSD Storage</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Unlimited Bandwidth</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Free SSL Certificate</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Priority 24/7 Support</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>Free Daily Backups</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>CDN Integration</li>
-              <li class="flex items-center"><span class="text-accent-orange font-bold mr-3">✓</span>99.9% Uptime</li>
-            </ul>
-            <button class="w-full bg-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300">
+            <button
+              class="w-full bg-primary-blue text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300"
+            >
               Choose Business
             </button>
           </div>
@@ -214,23 +653,43 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center">
-            <h4 class="text-xl font-semibold text-primary-blue mb-3">99.9% Uptime Guarantee</h4>
-            <p class="text-gray-600">Your website stays online when it matters most with our robust infrastructure.</p>
+            <h4 class="text-xl font-semibold text-primary-blue mb-3">
+              99.9% Uptime Guarantee
+            </h4>
+            <p class="text-gray-600">
+              Your website stays online when it matters most with our robust
+              infrastructure.
+            </p>
           </div>
 
           <div class="text-center">
-            <h4 class="text-xl font-semibold text-primary-blue mb-3">Indian Data Centers</h4>
-            <p class="text-gray-600">Servers located in India provide faster loading times for your local audience.</p>
+            <h4 class="text-xl font-semibold text-primary-blue mb-3">
+              Indian Data Centers
+            </h4>
+            <p class="text-gray-600">
+              Servers located in India provide faster loading times for your
+              local audience.
+            </p>
           </div>
 
           <div class="text-center">
-            <h4 class="text-xl font-semibold text-primary-blue mb-3">One-Click Installations</h4>
-            <p class="text-gray-600">Install WordPress, Joomla, and 100+ applications instantly with our control panel.</p>
+            <h4 class="text-xl font-semibold text-primary-blue mb-3">
+              One-Click Installations
+            </h4>
+            <p class="text-gray-600">
+              Install WordPress, Joomla, and 100+ applications instantly with
+              our control panel.
+            </p>
           </div>
 
           <div class="text-center">
-            <h4 class="text-xl font-semibold text-primary-blue mb-3">30-Day Money Back</h4>
-            <p class="text-gray-600">Try our hosting risk-free. Get your money back within 30 days if not satisfied.</p>
+            <h4 class="text-xl font-semibold text-primary-blue mb-3">
+              30-Day Money Back
+            </h4>
+            <p class="text-gray-600">
+              Try our hosting risk-free. Get your money back within 30 days if
+              not satisfied.
+            </p>
           </div>
         </div>
       </div>
@@ -246,23 +705,31 @@
         <div class="grid md:grid-cols-3 gap-8">
           <div class="bg-white p-8 rounded-xl border border-gray-200">
             <p class="text-lg mb-6 text-gray-600">
-              "BlinkHost.in has been incredible for our e-commerce site. The speed and reliability have significantly improved our customer experience."
+              "BlinkHost.in has been incredible for our e-commerce site. The
+              speed and reliability have significantly improved our customer
+              experience."
             </p>
-            <p class="font-semibold text-primary-blue">Priya Sharma, E-commerce Owner</p>
+            <p class="font-semibold text-primary-blue">
+              Priya Sharma, E-commerce Owner
+            </p>
           </div>
 
           <div class="bg-white p-8 rounded-xl border border-gray-200">
             <p class="text-lg mb-6 text-gray-600">
-              "Migrating to BlinkHost.in was the best decision for our blog. The support team helped us every step of the way."
+              "Migrating to BlinkHost.in was the best decision for our blog. The
+              support team helped us every step of the way."
             </p>
             <p class="font-semibold text-primary-blue">Rahul Kumar, Blogger</p>
           </div>
 
           <div class="bg-white p-8 rounded-xl border border-gray-200">
             <p class="text-lg mb-6 text-gray-600">
-              "As a web developer, I need reliable hosting for my clients. BlinkHost.in delivers consistently excellent performance."
+              "As a web developer, I need reliable hosting for my clients.
+              BlinkHost.in delivers consistently excellent performance."
             </p>
-            <p class="font-semibold text-primary-blue">Sneha Patel, Web Developer</p>
+            <p class="font-semibold text-primary-blue">
+              Sneha Patel, Web Developer
+            </p>
           </div>
         </div>
       </div>
@@ -273,42 +740,97 @@
       <div class="max-w-6xl mx-auto">
         <div class="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h4 class="text-2xl font-semibold text-accent-orange mb-6">BlinkHost.in</h4>
-            <p class="mb-6 opacity-90">Empowering websites with fast, secure, and reliable hosting solutions.</p>
+            <h4 class="text-2xl font-semibold text-accent-orange mb-6">
+              BlinkHost.in
+            </h4>
+            <p class="mb-6 opacity-90">
+              Empowering websites with fast, secure, and reliable hosting
+              solutions.
+            </p>
           </div>
 
           <div>
             <h4 class="text-xl font-semibold mb-6">Services</h4>
             <ul class="space-y-2 opacity-90">
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Web Hosting</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Domain Registration</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">SSL Certificates</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Website Builder</a></li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Web Hosting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Domain Registration</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >SSL Certificates</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Website Builder</a
+                >
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 class="text-xl font-semibold mb-6">Support</h4>
             <ul class="space-y-2 opacity-90">
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Help Center</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Live Chat</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Submit Ticket</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Status Page</a></li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Live Chat</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Submit Ticket</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Status Page</a
+                >
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 class="text-xl font-semibold mb-6">Legal</h4>
             <ul class="space-y-2 opacity-90">
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Privacy Policy</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Terms of Service</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">Refund Policy</a></li>
-              <li><a href="#" class="hover:text-accent-orange transition-colors">About Us</a></li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Terms of Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >Refund Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-accent-orange transition-colors"
+                  >About Us</a
+                >
+              </li>
             </ul>
           </div>
         </div>
 
-        <div class="border-t border-white border-opacity-20 pt-8 text-center opacity-70">
+        <div
+          class="border-t border-white border-opacity-20 pt-8 text-center opacity-70"
+        >
           <p>&copy; 2025 BlinkHost.in. All rights reserved.</p>
         </div>
       </div>
